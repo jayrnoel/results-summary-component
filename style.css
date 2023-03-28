@@ -40,6 +40,9 @@ body{
     align-items: center;
     border-radius: 0 0 3rem 3rem;
 }
+.result-text{
+    font-size: 1.5rem;
+}
 .result-numbers{
     background: linear-gradient(var(--violet-blue), var(--persian-blue));
     width: 150px;
@@ -59,6 +62,8 @@ body{
     text-align: center;
     width:80%;
     margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 .summary{
@@ -116,7 +121,7 @@ img[alt="visual"] + span{
 .continue-btn{
     background-color: var(--dark-gray-blue);
     display: block;
-    padding: 1rem;
+    padding: 0.8rem;
     width: 100%;
     color: var(--white);
     border-radius: 3rem;
@@ -144,10 +149,10 @@ background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue))
         max-width: 680px;
     }
     .result{
-        flex-basis: 40%;
+        flex-basis: 45%;
         border-radius: 3rem;
     }
     .summary{
-        flex-basis: 60%;
+        flex-basis: 55%;
     }
 }
